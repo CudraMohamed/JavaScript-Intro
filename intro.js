@@ -28,3 +28,19 @@ g["home/address"]="Ngong"
 console.log(g)
 g["a"]=a
 console.log(g)
+
+//Assignment
+const name_ ="Cudra" //string
+console.log(name_)
+var age =21       //number
+console.log(age)
+var isStudent = true //boolean
+console.log(isStudent)
+var favColors = ["Black","Jungle Green","Grey"]  //arrray
+console.log(favColors)
+var profile = {name:"Cudra", age:21, student_status:"Enrolled",favorite_color1:"Green",favorite_color2:"Black"} //object
+console.log(profile)
+var myAgeInTenYears=[21+10] //addition in arrays
+console.log(myAgeInTenYears)
+profile["myAgeInTenYears"]=31
+console.log(profile) //setting new values
