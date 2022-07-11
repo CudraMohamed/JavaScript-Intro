@@ -44,3 +44,65 @@ var myAgeInTenYears=[21+10] //addition in arrays
 console.log(myAgeInTenYears)
 profile["myAgeInTenYears"]=31
 console.log(profile) //setting new values
+
+console.log('Welcome','to','JavaScript')    //console.log() can take more than one argument
+//single-line /*multiline*/
+//syntax-structure of statements in a computer language
+//Debugging-process of identifying and removing errors from a program
+
+// Pick a string. Your string can have any number of characters.
+var my_string = "a";
+
+// Calculate the ASCII value of the first character, i.e. the character at the position 0. 
+var ASCII_value = my_string.charCodeAt(0);
+
+// Let us print
+console.log(ASCII_value);
+
+var my_string = "Udacity";
+
+// Iterate using a Loop
+for (var i = 0; i < my_string.length; i++) {
+  console.log(my_string.charCodeAt(i));
+}
+
+console.log("green">"Green")
+
+//array literal []
+const array1=["eat","sleep"]
+console.log(array1)
+
+//new keyword
+const array2=new Array("meat","leo")
+console.log(array2)
+
+//empty array
+const myList=[];
+
+//array of numbers
+const numberArray=[2,3,6,7,8];
+
+const newData = [
+  {'tasks':'exercise'},
+  [1,2,3],
+  function hello(){console.log('hello')}
+];
+
+//accessing elements of an array
+//using indices
+const myArray=['h','e','l','l','o'];
+ console.log(myArray[0]);   //first element
+
+ //Arrays index start with 0
+
+ //add an elent to an array
+ let dailyActivities=['eat','sleep'];
+ dailyActivities.push('exercise');   //push-adds element at the end
+ console.log(dailyActivities)
+
+ let dailyAct=['eat','shower'];
+ dailyAct.unshift('wear');   //adds elements at the start
+ console.log(dailyAct)
+
+ dailyActivities[2]='poa';
+ console.log(dailyActivities)
