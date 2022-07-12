@@ -106,3 +106,39 @@ const myArray=['h','e','l','l','o'];
 
  dailyActivities[2]='poa';
  console.log(dailyActivities)
+
+ function Person(){
+  this.name='John',
+  this.age=23
+ }
+ const person = new Person();
+
+ //checking the prototype value
+ console.log(Person.prototype)
+
+ //Array object
+ let names=[
+  {name:"Tut",Age:70},
+  {name:"Yut",age:50},
+  {name:"Leo",age:20},
+  {name:"Pleo",age:30}
+ ]
+ console.log(names[1]["age"]);    //accessing index
+ console.log(names[1].age);
+
+ //accessing ages using map
+names.map(item=> console.log(item.age));
+// names.filter(item)=> return item.age>70
+// console.log(names)
+
+let findAkuot=names.find(x=>x.name="Tut");    //access a specific value
+console.log(findAkuot)
+
+// names.filter(v=> console.log(v<30));
+
+//filtered array
+function biggerThanTen(value){
+  return value>=10;         //filteres numbers less than 10
+}
+let filtered=[12,3,20,1,5,15].filter(biggerThanTen);    //values->filter->function name
+console.log(filtered)
